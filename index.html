@@ -150,7 +150,41 @@
         教育、AI活用、コミュニティ運営、事業開発に関するご相談は、  
         下記よりお気軽にお問い合わせください。
       </p>
-      <a href="mailto:info@andx.jp" class="button">メールで問い合わせる</a>
+    
+    <form name="contact"
+      method="POST"
+      data-netlify="true">
+      
+      <input type="hidden"
+         name="form-name"
+         value="contact">
+      
+      <div class="form-group">
+        <input type="text"
+           name="name"
+           placeholder="お名前"
+           required>
+      </div>
+      
+      <div class="form-group">
+        <input type="email"
+           name="email"
+           placeholder="メールアドレス"
+           required>
+      </div>
+      
+      <div class="form-group">
+        <textarea name="message"
+           rows="6"
+           placeholder="お問い合わせ内容"
+           required></textarea>
+     </div>
+
+    <button type="submit" class="button">
+      送信する
+    </button>
+
+  </form>
     </div>
   </section>
 
