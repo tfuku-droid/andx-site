@@ -51,7 +51,9 @@ nav a {
   max-width: 900px;
 }
 
-.tagline,
+.tagline {
+  color: #d6d6d6;
+},
 .label {
   font-size: 13px;
   letter-spacing: 0.18em;
