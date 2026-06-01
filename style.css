@@ -105,9 +105,10 @@ nav a {
   background: #f5f7fa;
 }
 
-.dark {
-  background: #111827;
-  color: #fff;
+.dark h2{
+    font-size: 42px;
+    line-height: 1.4;
+    word-break: keep-all;
 }
 
 h2 {
@@ -255,4 +256,27 @@ textarea {
 button.button {
   border: none;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+
+  table th,
+  table td {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  table th {
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+}
+
+@media (max-width:768px){
+
+.dark h2{
+    font-size: 36px;
+}
+
 }
