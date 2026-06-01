@@ -61,7 +61,8 @@ nav a {
 
 .tagline {
   color: #d6d6d6;
-},
+}
+
 .label {
   font-size: 13px;
   letter-spacing: 0.18em;
@@ -78,7 +79,9 @@ nav a {
 
 .hero p {
   font-size: 18px;
-  max-width: 760px;
+  max-width: 600px;
+  line-height: 1.8;
+  word-break: keep-all;
 }
 
 .button {
