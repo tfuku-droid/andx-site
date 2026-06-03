@@ -243,7 +243,8 @@ th{
 
   background:#f7f7f7;
 
-}@media (max-width: 900px) {
+}
+@media (max-width: 900px) {
   nav {
     display: none;
   }
