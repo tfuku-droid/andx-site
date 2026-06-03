@@ -205,9 +205,17 @@ th {
 footer {
   text-align: center;
   padding: 30px;
-  background: #111;
-  color: #fff;
-  font-size: 13px;
+  background: #f5f5f5;
+}
+
+footer a {
+  color: #666;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
