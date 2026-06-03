@@ -23,6 +23,11 @@ body {
   z-index: 10;
 }
 
+.logo a{
+  text-decoration:none;
+  color:#111;
+}
+
 .logo {
   font-size: 24px;
   font-weight: 700;
